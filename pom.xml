@@ -22,14 +22,14 @@
   <distributionManagement>
     <repository>
         <id>releases</id>
-        <name>netlink-repository-releases</name>
-        <url>http://localhost:8081/nexus/content/repositories/netlink-repository-releases/</url>
+        <name>maven-releases</name>
+        <url>http://192.168.137.1:8081/repository/maven-releases/</url>
     </repository>
 	
 	<snapshotRepository>
         <id>snapshots</id>
-        <name>netlink-repository-snapshots</name>
-        <url>http://localhost:8081/nexus/content/repositories/netlink-repository-snapshots/</url>
+        <name>maven-snapshots</name>
+        <url>http://192.168.137.1:8081/repository/maven-snapshots/</url>
     </snapshotRepository>
 	
   </distributionManagement> 
