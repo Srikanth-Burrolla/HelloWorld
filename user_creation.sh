@@ -9,7 +9,7 @@ else
     if [ "$USER_NAME" = "EX_USER" ]; then
 	    echo "User $USER_NAME Exists. Please Select a Different Username.."
 	else
-        echo "Lets Creat User $USER_NAME"
+        echo "Lets Create User $USER_NAME"
 		#read -s -p "Please Enter The Password:" Password
 		SPEC=$(echo '@$%^&*_' | fold -w1 | shuf | head -1)
 		PASSWORD="India@${RANDOM}${SPEC}"
